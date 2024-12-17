@@ -1,8 +1,7 @@
 "use client";
 import { TypeAnimation } from "react-type-animation";
 import { useState } from "react";
-import { BsColumnsGap } from "react-icons/bs";
-const upper_lower = () => {
+const Upper_lower = () => {
   let [text, settext] = useState("Write or past your text here...");
 
   function change(e) {
@@ -78,4 +77,4 @@ const upper_lower = () => {
   );
 };
 
-export default upper_lower;
+export default Upper_lower;

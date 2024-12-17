@@ -1,7 +1,7 @@
 "use client";
 import { TypeAnimation } from "react-type-animation";
 import { useState } from "react";
-const remove_space = () => {
+const Remove_space = () => {
   let [text, settext] = useState("Past and Remove all spaces...");
 
   function change(e) {
@@ -66,4 +66,4 @@ const remove_space = () => {
   );
 };
 
-export default remove_space;
+export default Remove_space;
