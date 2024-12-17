@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar-thumb {
+  background: rgb(31, 53, 81);
+  width: 0.5vw;
+  border-radius: 1vw;
+}
+::-webkit-scrollbar {
+  background: rgb(10, 23, 34);
+  width: 0.7vw;
+}
+
+.top_bottom {
+  animation: top_bottom 10s linear infinite;
+}
+
+@keyframes top_bottom {
+  50% {
+    transform: translateY(40px);
+  }
+}

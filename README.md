@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📝 Todo App with Dark Mode, Word Counter, and Tools
 
-## Getting Started
+This is a **fully responsive** Todo App built with **Next.js** and **TailwindCSS**. It includes essential productivity features such as dark mode, word counter, uppercase/lowercase text conversion tools, and a remove-space tool for clean and efficient content editing.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🎨 Dark Mode
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Switch seamlessly between **light** and **dark** themes.
+- Preference saved to local storage.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ✅ Todo List Functionality
 
-## Learn More
+- **Create, edit, delete, and mark** todos.
+- Fully responsive design for mobile and desktop.
 
-To learn more about Next.js, take a look at the following resources:
+### 🔠 Capitalize & Lowercase Tool
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Instantly convert your text to:
+  - UPPERCASE
+  - lowercase
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🔢 Word Counter
 
-## Deploy on Vercel
+- Live word and character count display.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🧹 Remove Spaces Tool
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Clean up unnecessary spaces in your text with one click.
+
+### 📱 Responsive Design
+
+- Optimized for all devices: **mobile**, **tablet**, and **desktop**.
+
+---
+
+## 🛠️ Built With
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [TailwindCSS](https://tailwindcss.com/)
+- **State Management**: React's `useState` and `useEffect`
+- **Dark Mode**: Tailwind's Dark Mode Utilities
+- **Icons**: [React Icons](https://react-icons.github.io/)
+
+---
+
+## 🔧 Installation
+
+Follow these steps to run the app locally:
+
+1. **Clone** the repository:
+
+   ```bash
+   git clone https://github.com/your-username/todo-app.git
+   ```
+
+1. **Run** the project:
+   ```bash
+   npm run dev
+   ```
