@@ -4,6 +4,12 @@ This is a **fully responsive** Todo App built with **Next.js** and **TailwindCSS
 
 ---
 
+## live demo
+
+click on link to see live demo
+
+<a href="https://todo-tool-jade.vercel.app/" target="_blank">Todo-Tool</a>
+
 ## 🚀 Features
 
 ### 🎨 Dark Mode
