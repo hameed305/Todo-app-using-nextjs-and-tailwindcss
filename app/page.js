@@ -5,7 +5,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <>
-      <div className="w-full min-h-dvh flex items-center justify-center gap-6 flex-col relative">
+      <div className="w-full min-h-[80vh] flex items-center justify-center gap-6 flex-col relative">
         <Image
           src="/img/golden crown.png"
           width={150}
