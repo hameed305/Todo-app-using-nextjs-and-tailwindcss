@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link rel="icon" href="/logo.png" />
+      <link rel="icon" href="/icon.png" />
       <body className="">
         <div className="bg-white dark:bg-slate-950 p-2 min-h-dvh">
           <div className="font-poppins select-none scroll-smooth px-2 container mx-auto w-full dark:text-white">

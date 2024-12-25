@@ -18,13 +18,12 @@ const Remove_space = () => {
   }
   return (
     <>
-      <section className="h-[80vh] w-full">
-        <h1 className="text-center">
+      <section className="min-h-[80vh] w-full flex flex-col items-center justify-center p-4">
+        <h1 className="text-center mb-8">
           <TypeAnimation
             sequence={[
-              // Same substring at the start will only be typed out once, initially
               "Remove the spacing between words",
-              2000, // wait 1s before replacing "Mice" with "Hamsters"
+              2000,
               "Remove the spacing between words",
               2000,
             ]}
@@ -39,14 +38,14 @@ const Remove_space = () => {
           />
         </h1>
 
-        <div className="p-4 flex items-center justify-center gap-4 flex-col">
+        <div className="p-4 flex items-center justify-center gap-4 flex-col w-full">
           <textarea
-            className="text-slate-400 p-4 resize-none bg-slate-800 rounded-lg  w-[60vw] mx-auto block focus:outline-slate-400 outline-1 outline-none h-60"
+            className="text-slate-400 p-4 resize-none bg-slate-800 rounded-lg w-full max-w-2xl mx-auto block focus:outline-slate-400 outline-1 outline-none h-60"
             value={text}
             onChange={change}
           ></textarea>
         </div>
-        <div className="flex items-center justify-center gap-4 ">
+        <div className="flex items-center justify-center gap-4 mt-4">
           <button
             className="px-4 py-3 border border-slate-400 bg-slate-700 rounded-full text-center hover:border-white"
             onClick={remove}

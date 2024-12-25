@@ -95,7 +95,7 @@ export default function About() {
             ].map(({ name, icon, style }) => (
               <div
                 key={name}
-                className={`py-2 px-4 bg-gradient-to-r ${style} rounded-lg flex items-center text-white`}
+                className={`flex-wrap py-2 px-4 bg-gradient-to-r ${style} rounded-lg flex items-center text-white`}
               >
                 <span className="text-2xl mr-2">{icon}</span>
                 {name}
@@ -106,7 +106,7 @@ export default function About() {
           <h2 className="text-2xl font-semibold mt-12 mb-4 text-gray-900 dark:text-gray-100">
             Links
           </h2>
-          <div className="flex justify-center space-x-6 text-lg">
+          <div className="flex justify-center space-x-6 text-lg flex-wrap gap-4 max-sm:items-start max-md:justify-start">
             <Link
               href="https://github.com/hameed305"
               target="_blank"

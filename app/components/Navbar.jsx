@@ -49,7 +49,7 @@ const Navbar = () => {
 
       {/* Navbar Links */}
       <nav
-        className={`absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent md:flex md:items-center md:justify-between transition-all duration-300 ease-in-out ${
+        className={`absolute md:static top-16 left-0 w-full md:w-auto dark:bg-slate-800 bg-white rounded-lg md:bg-transparent md:flex md:items-center md:justify-between transition-all duration-300 ease-in-out ${
           menuOpen ? "flex flex-col p-4" : "hidden"
         }`}
       >
@@ -92,7 +92,7 @@ const Navbar = () => {
 
       {/* Logo */}
       <div className="hidden md:flex items-center">
-        <Image src="/logo.png" width={80} height={80} alt="logo" />
+        <Image src="/logo.png" width={60} height={60} alt="logo" />
       </div>
 
       {/* Actions */}
