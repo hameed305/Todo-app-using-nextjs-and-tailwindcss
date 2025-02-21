@@ -8,7 +8,7 @@ This is a **fully responsive** Todo App built with **Next.js** and **TailwindCSS
 
 click on link to see live demo
 
-<a href="https://todo-tool-jade.vercel.app/" target="_blank">Todo-Tool</a>
+<a href="https://todo-app-using-nextjs-and-tailwindcss.vercel.app/" target="_blank">Todo-Tool</a>
 
 ## 🚀 Features
 
